@@ -2,5 +2,5 @@
 
 n=int(input())
 a=raw_input().split(" ")
-print sorted((map(int,a)))
-
+i=len(a)/2
+print a[i]
